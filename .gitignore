@@ -1,0 +1,7 @@
+*.pdf
+*.log
+*.gz
+*.aux
+*.out
+Samples/
+.DS_Store
