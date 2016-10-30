@@ -2,7 +2,7 @@ ALL = CV.pdf CV_onepage_140412.pdf
 
 default: $(ALL)
 
-description.pdf: CV.tex
+CV.pdf: CV.tex
 	pdflatex CV.tex
 
 CV_onepage_140412.pdf: CV_onepage_140412.tex
